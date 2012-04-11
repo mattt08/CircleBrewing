@@ -11,6 +11,7 @@
 #import "CircleBrewingAppDelegate.h"
 #import "FavoritesDB.h"
 #import <Twitter/TWTweetComposeViewController.h>
+#import "MapViewController.h"
 
 @implementation BarDetailViewController
 
@@ -342,7 +343,14 @@
     
     if (indexPath.section == MAP_SECTION) 
     {
-        //Show bar on map
+        MapViewController *myMapViewController = [[MapViewController alloc] init];
+        
+        NSArray *barArray = [NSArray arrayWithObject:myBar];
+        
+        myMapViewController.barArray = barArray;
+        
+        [self.navigationController pushViewController:myMapViewController animated:YES];
+        [myMapViewController release];
         
     }
     if (indexPath.section == DIRECTION_SECTION) 

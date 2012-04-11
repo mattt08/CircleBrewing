@@ -108,12 +108,30 @@ static NSString *defaultMapType = @"defaultMap";
     MKCoordinateRegion region;
     MKCoordinateSpan span = MKCoordinateSpanMake(0.015, 0.015);
     
-    if ([[CircleBrewingAppDelegate myAppDelegate] locationServicesAreAvailable]) 
+    if ([self.barArray count] == 1) 
     {
-        if ([CircleBrewingAppDelegate myAppDelegate].launchDate == [[CircleBrewingAppDelegate myAppDelegate].myLocationManager.location.timestamp earlierDate:[CircleBrewingAppDelegate myAppDelegate].launchDate]) 
+        Bar *myBar = [self.barArray objectAtIndex:0];
+        
+        region = MKCoordinateRegionMake(myBar.myLocation, span);
+    }
+    else 
+    {
+        if ([[CircleBrewingAppDelegate myAppDelegate] locationServicesAreAvailable]) 
         {
-            myMapView.showsUserLocation = YES;
-            region = MKCoordinateRegionMake([CircleBrewingAppDelegate myAppDelegate].myLocationManager.location.coordinate, span);
+            if ([CircleBrewingAppDelegate myAppDelegate].launchDate == [[CircleBrewingAppDelegate myAppDelegate].myLocationManager.location.timestamp earlierDate:[CircleBrewingAppDelegate myAppDelegate].launchDate]) 
+            {
+                myMapView.showsUserLocation = YES;
+                region = MKCoordinateRegionMake([CircleBrewingAppDelegate myAppDelegate].myLocationManager.location.coordinate, span);
+            }
+            else 
+            {
+                CLLocationDegrees latitude = 30.391217;
+                CLLocationDegrees longitude = -97.715577;
+                
+                CLLocationCoordinate2D defaultLocation = CLLocationCoordinate2DMake(latitude, longitude);
+                
+                region = MKCoordinateRegionMake(defaultLocation, span);
+            }
         }
         else 
         {
@@ -125,16 +143,7 @@ static NSString *defaultMapType = @"defaultMap";
             region = MKCoordinateRegionMake(defaultLocation, span);
         }
     }
-    else 
-    {
-        CLLocationDegrees latitude = 30.391217;
-        CLLocationDegrees longitude = -97.715577;
-        
-        CLLocationCoordinate2D defaultLocation = CLLocationCoordinate2DMake(latitude, longitude);
-        
-        region = MKCoordinateRegionMake(defaultLocation, span);
-
-    }
+    
     
     myMapView.region = region;
 }
@@ -167,8 +176,11 @@ static NSString *defaultMapType = @"defaultMap";
         pin.canShowCallout = YES;
     }
     
-    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    pin.rightCalloutAccessoryView = rightButton;
+    if ([self.barArray count] != 1) 
+    {
+        UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        pin.rightCalloutAccessoryView = rightButton;
+    }
 
     return pin;
 }
