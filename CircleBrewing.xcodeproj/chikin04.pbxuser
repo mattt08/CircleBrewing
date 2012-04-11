@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CircleBrewingAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 759}}";
+			sepNavSelRange = "{740, 0}";
+			sepNavVisRange = "{0, 748}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CircleBrewingAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 1521}}";
+			sepNavSelRange = "{1394, 0}";
+			sepNavVisRange = "{0, 1706}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CircleBrewing */ = {
+		activeExec = 0;
+		executables = (
+			2BDAF8B2145CACAC001CAE49 /* CircleBrewing */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2BDAF8B2145CACAC001CAE49 /* CircleBrewing */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CircleBrewing */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CircleBrewing */,
+		);
+		codeSenseManager = 2BDAF8C8145CACB3001CAE49 /* Code sense */;
+		executables = (
+			2BDAF8B2145CACAC001CAE49 /* CircleBrewing */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1469,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 341617836;
+			PBXWorkspaceStateSaveDate = 341617836;
+		};
+		perUserProjectItems = {
+			2BDAF8E8145CAF45001CAE49 /* PBXBookmark */ = 2BDAF8E8145CAF45001CAE49 /* PBXBookmark */;
+			2BDAF8E9145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8E9145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8EA145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8EA145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8EB145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8EB145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8EC145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8EC145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8ED145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8ED145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8EE145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8EE145CAF45001CAE49 /* PBXTextBookmark */;
+			2BDAF8EF145CAF45001CAE49 /* PBXTextBookmark */ = 2BDAF8EF145CAF45001CAE49 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2BDAF8C7145CACB3001CAE49 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2BDAF8B2145CACAC001CAE49 /* CircleBrewing */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CircleBrewing;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2BDAF8C7145CACB3001CAE49 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2BDAF8C8145CACB3001CAE49 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2BDAF8D6145CAD74001CAE49 /* BeerFinderViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 759}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3977, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4028, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4078, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4781}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 2509}}";
+			sepNavSelRange = "{632, 0}";
+			sepNavVisRange = "{188, 1355}";
+		};
+	};
+	2BDAF8DB145CAD7D001CAE49 /* AboutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 759}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 238}";
+		};
+	};
+	2BDAF8DC145CAD7D001CAE49 /* AboutViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3961, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4012, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4062, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4765}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 2509}}";
+			sepNavSelRange = "{582, 0}";
+			sepNavVisRange = "{0, 1190}";
+		};
+	};
+	2BDAF8E8145CAF45001CAE49 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2BDAF8C9145CACC5001CAE49 /* Default.png */;
+	};
+	2BDAF8E9145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BDAF8D6145CAD74001CAE49 /* BeerFinderViewController.h */;
+		name = "BeerFinderViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	2BDAF8EA145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BDAF8DB145CAD7D001CAE49 /* AboutViewController.h */;
+		name = "AboutViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	2BDAF8EB145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CircleBrewingAppDelegate.h */;
+		name = "CircleBrewingAppDelegate.h: 26";
+		rLen = 0;
+		rLoc = 740;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	2BDAF8EC145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CircleBrewingAppDelegate.m */;
+		name = "CircleBrewingAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 1394;
+		rType = 0;
+		vrLen = 1706;
+		vrLoc = 0;
+	};
+	2BDAF8ED145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BDAF8DC145CAD7D001CAE49 /* AboutViewController.m */;
+		name = "AboutViewController.m: 29";
+		rLen = 0;
+		rLoc = 582;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	2BDAF8EE145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */;
+		name = "BeerFinderViewController.m: 37";
+		rLen = 0;
+		rLoc = 718;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 188;
+	};
+	2BDAF8EF145CAF45001CAE49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */;
+		name = "BeerFinderViewController.m: 31";
+		rLen = 0;
+		rLoc = 632;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 188;
+	};
+}

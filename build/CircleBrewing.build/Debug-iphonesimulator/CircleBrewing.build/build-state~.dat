@@ -1,0 +1,226 @@
+TCircleBrewing
+v7
+r0
+t341617869.211829
+cCheck dependencies
+cProcessInfoPlistFile "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Info.plist" CircleBrewing-Info.plist
+cCompileXIB "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/CircleBrewing.app/Default.png Default.png
+cProcessPCH /var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch.gch CircleBrewing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/main.o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewingAppDelegate.o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing" normal i386
+cGenerateDSYMFile "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app.dSYM" "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing"
+cTouch "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/CircleBrewing_Prefix.pch
+c000000004EAC752C00000000000000C3
+t1319925036
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.h
+c000000004EAC752C0000000000000152
+t1319925036
+s338
+i<UIKit/UIKit.h>
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m
+c000000004EAC752C00000000000009DF
+t1319925036
+s2527
+i"CircleBrewingAppDelegate.h"
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Default.png
+c000000004EAC74EC000000000000419C
+t1319924972
+s16796
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib
+c000000004EAC752C0000000000002126
+t1319925036
+s8486
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewing.LinkFileList
+c000000004EAC754B0000000000000150
+t1319925067
+s336
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewingAppDelegate.o
+t1319925069
+s49620
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/main.o
+t1319925069
+s6352
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app
+t1319925069
+s238
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app.dSYM
+t1319925069
+s102
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing
+t1319925069
+s15908
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Default.png
+t1319925067
+s16796
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Info.plist
+t1319925067
+s615
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/MainWindow.nib
+t1319925068
+s990
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/PkgInfo
+t1319925067
+s8
+
+N/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m
+c000000004EAC752C0000000000000168
+t1319925036
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch.gch
+t1319925068
+s15453392
+
+NCircleBrewing-Info.plist
+c000000004EAC752C000000000000038D
+t1319925036
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies341617867#341617867#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewingAppDelegate.o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341617868.868633
+e341617869.029276
+r1
+xCompileC
+xbuild/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewingAppDelegate.o
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m341617868#341617869#0(0"0(0#0#97"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m8601127424#2368"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-generated-files.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-own-target-headers.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-all-target-headers.hmap" -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-project-headers.hmap" "-F/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/include" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources/i386" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources" -include /var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch -c "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Classes/CircleBrewingAppDelegate.m" -o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewingAppDelegate.o"0#
+
+CCompileC build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/main.o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341617868.867741
+e341617869.015832
+r1
+xCompileC
+xbuild/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/main.o
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m341617868#341617869#0(0"0(0#0#69"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m8603690592#2320"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-generated-files.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-own-target-headers.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-all-target-headers.hmap" -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-project-headers.hmap" "-F/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/include" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources/i386" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources" -include /var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch -c "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/main.m" -o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib"
+s341617867.866299
+e341617868.248294
+r1
+xCompileXIB
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib341617867#341617868#0(0"0(0#0#77"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib8603651040#654"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/MainWindow.nib" "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CircleBrewing.app/Default.png Default.png
+s341617867.881698
+e341617867.899275
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CircleBrewing.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png341617867#341617867#0(0"0(0#0#74"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Default.png8604167872#553"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/Default.png" "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app"0#
+
+CGenerateDSYMFile "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app.dSYM" "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing"
+s341617869.184527
+e341617869.209601
+r1
+xGenerateDSYMFile
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app.dSYM
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/CircleBrewing.app.dSYM build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing341617869#341617869#0(0"0(0#0#122"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing8601857024#479"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing" -o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app.dSYM"0#
+
+CLd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing" normal i386
+s341617869.029363
+e341617869.184441
+r1
+xLd
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing
+xnormal
+xi386
+lSLF07#2@127"Link /Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing341617869#341617869#0(0"0(0#0#0"8604551200#1060"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator" "-F/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator" -filelist "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/Objects-normal/i386/CircleBrewing.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/CircleBrewing"0#
+
+CProcessInfoPlistFile "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Info.plist" CircleBrewing-Info.plist
+s341617867.841474
+e341617867.866233
+r1
+xProcessInfoPlistFile
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Info.plist
+xCircleBrewing-Info.plist
+lSLF07#2@32"Process CircleBrewing-Info.plist341617867#341617867#0(0"0(0#0#87"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/CircleBrewing-Info.plist8458375171435755520#575"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CircleBrewing-Info.plist -genpkginfo "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app/Info.plist"0#
+
+CProcessPCH /var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch.gch CircleBrewing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s341617868.248473
+e341617868.867587
+r1
+xProcessPCH
+x/var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch.gch
+xCircleBrewing_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile CircleBrewing_Prefix.pch341617868#341617868#0(0"0(0#0#87"/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/CircleBrewing_Prefix.pch8604543456#2180"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-generated-files.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-own-target-headers.hmap" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-all-target-headers.hmap" -iquote "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/CircleBrewing-project-headers.hmap" "-F/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/include" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources/i386" "-I/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/CircleBrewing.build/Debug-iphonesimulator/CircleBrewing.build/DerivedSources" -c "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/CircleBrewing_Prefix.pch" -o /var/folders/3p/3p3abEaNGF4+deg5zWhWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CircleBrewing_Prefix-ggmjkzaaiuaxppajtwhxoojleeby/CircleBrewing_Prefix.pch.gch0#
+
+CTouch "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app"
+s341617869.209679
+e341617869.211794
+r1
+xTouch
+x/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app
+lSLF07#2@114"Touch /Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app341617869#341617869#0(0"0(0#0#0"8600220832#336"    cd "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/chikin04/Documents/iOS Coding/Sample Code/CircleBrewing/build/Debug-iphonesimulator/CircleBrewing.app"0#
+

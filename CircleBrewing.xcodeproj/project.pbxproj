@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CircleBrewingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CircleBrewingAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2B03481D14F99ADA00BB6BD7 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03481C14F99AD900BB6BD7 /* IconDownloader.m */; };
+		2B03482314F9A59D00BB6BD7 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03482214F9A59D00BB6BD7 /* Placeholder.png */; };
+		2B03482514F9ABE100BB6BD7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B03482414F9ABE100BB6BD7 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2B07A13B14F20B5C00FC69D6 /* FavoritesDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2B07A13A14F20B5C00FC69D6 /* FavoritesDB.sqlite */; };
+		2B07A13E14F20CFC00FC69D6 /* MyFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07A13D14F20CFC00FC69D6 /* MyFavorite.m */; };
+		2B14444A14D89CBA00121662 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B14444914D89CBA00121662 /* CoreLocation.framework */; };
+		2B14445114D8BAE800121662 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B14445014D8BAE800121662 /* Wood.jpg */; };
+		2B14445614D8C42D00121662 /* MyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B14445514D8C42D00121662 /* MyDB.m */; };
+		2B18B21C15040AD400C3B404 /* HeadingArrowSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B18B21B15040AD400C3B404 /* HeadingArrowSmall.png */; };
+		2B1D5D95151E279C0040EE9F /* AboutDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D5D94151E279C0040EE9F /* AboutDetailViewController.m */; };
+		2B2A5D001530DEAF00EA28F4 /* MyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5CFF1530DEAF00EA28F4 /* MyMapAnnotation.m */; };
+		2B321CD014C1E79B00B24159 /* storypic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B321CCE14C1E79B00B24159 /* storypic1.jpg */; };
+		2B321CD114C1E79B00B24159 /* storypic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B321CCF14C1E79B00B24159 /* storypic2.jpg */; };
+		2B321CD514C1E7E000B24159 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B321CD314C1E7E000B24159 /* AboutViewController.m */; };
+		2B5C196A150EB898008D7192 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B14444D14D8B73200121662 /* libsqlite3.dylib */; };
+		2B65517514E6C13E002B2CB2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B65517414E6C13E002B2CB2 /* Default@2x.png */; };
+		2B65517714E6C16F002B2CB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B65517614E6C16F002B2CB2 /* Default.png */; };
+		2B6FE0A2150EC15800FACF39 /* FavoriteSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FE0A1150EC15800FACF39 /* FavoriteSelected.png */; };
+		2B88A4A914F1DC5F00DEC7F4 /* FavoritesDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B88A4A814F1DC5F00DEC7F4 /* FavoritesDB.m */; };
+		2B9FB6DF152738BC00F4E26E /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FB6DE152738BC00F4E26E /* ImageViewController.m */; };
+		2BABD2E914C13062005F21AA /* 88-beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BABD2E714C13062005F21AA /* 88-beer-mug.png */; };
+		2BB0FA1714C1E9FF0061D97D /* Page-BgTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA1614C1E9FF0061D97D /* Page-BgTexture.jpg */; };
+		2BB0FA1A14C1EC180061D97D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0FA1914C1EC180061D97D /* MapViewController.m */; };
+		2BB0FA1D14C1EC390061D97D /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0FA1C14C1EC390061D97D /* FavoritesViewController.m */; };
+		2BB0FA2A14C1EF850061D97D /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2914C1EF850061D97D /* 29-heart.png */; };
+		2BB0FA2C14C1EF8F0061D97D /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2B14C1EF8F0061D97D /* 83-calendar.png */; };
+		2BB0FA2E14C1EF9C0061D97D /* 72-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2D14C1EF9C0061D97D /* 72-pin.png */; };
+		2BB0FA3014C1EFAB0061D97D /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2F14C1EFAB0061D97D /* 59-info.png */; };
+		2BBA70F41512A9EB00D5375B /* CircleTest.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */; };
+		2BC3AD1D14CF8F5600CE855F /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC3AD1C14CF8F5600CE855F /* BeerListViewController.m */; };
+		2BD2F94514CF935300B34C12 /* BeerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD2F94414CF935300B34C12 /* BeerTableViewCell.m */; };
+		2BD2F94B14CFA1C500B34C12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F94A14CFA1C500B34C12 /* MapKit.framework */; };
+		2BD3C6B714FAE95B00A7AB3B /* BarDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3C6B614FAE95B00A7AB3B /* BarDetailTableViewCell.m */; };
+		2BDAF8D8145CAD74001CAE49 /* BeerFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */; };
+		2BED59B114E4D7CA007EE77E /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED59B014E4D7CA007EE77E /* EventsViewController.m */; };
+		2BEF91E714D63B28009DD2B4 /* BarListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF91E614D63B27009DD2B4 /* BarListViewController.m */; };
+		2BEF91E914D64347009DD2B4 /* GradientImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEF91E814D64347009DD2B4 /* GradientImage.png */; };
+		2BF27F2014F1B922000B05C7 /* iconDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF27F1E14F1B922000B05C7 /* iconDefault.png */; };
+		2BF27F2114F1B922000B05C7 /* iconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF27F1F14F1B922000B05C7 /* iconRetina.png */; };
+		2BF27F2514F1BC8A000B05C7 /* FavoriteUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF27F2314F1BC8A000B05C7 /* FavoriteUnselected.png */; };
+		2BF8A65614D48D9600721B21 /* BarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8A65514D48D9600721B21 /* BarDetailViewController.m */; };
+		2BF8A65914D48DA600721B21 /* BeerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8A65814D48DA600721B21 /* BeerDetailViewController.m */; };
+		2BF8A66014D4907300721B21 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8A65F14D4907300721B21 /* Beer.m */; };
+		2BF8A66314D4933E00721B21 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8A66214D4933E00721B21 /* Bar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CircleBrewingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBrewingAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CircleBrewingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBrewingAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CircleBrewing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleBrewing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B03481B14F99AD900BB6BD7 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		2B03481C14F99AD900BB6BD7 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		2B03482214F9A59D00BB6BD7 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		2B03482414F9ABE100BB6BD7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		2B07A13A14F20B5C00FC69D6 /* FavoritesDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FavoritesDB.sqlite; sourceTree = "<group>"; };
+		2B07A13C14F20CFC00FC69D6 /* MyFavorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFavorite.h; sourceTree = "<group>"; };
+		2B07A13D14F20CFC00FC69D6 /* MyFavorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFavorite.m; sourceTree = "<group>"; };
+		2B14444914D89CBA00121662 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B14444D14D8B73200121662 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2B14445014D8BAE800121662 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
+		2B14445414D8C42D00121662 /* MyDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDB.h; sourceTree = "<group>"; };
+		2B14445514D8C42D00121662 /* MyDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDB.m; sourceTree = "<group>"; };
+		2B18B21B15040AD400C3B404 /* HeadingArrowSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadingArrowSmall.png; sourceTree = "<group>"; };
+		2B1D5D93151E279C0040EE9F /* AboutDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutDetailViewController.h; path = ../AboutDetailViewController.h; sourceTree = "<group>"; };
+		2B1D5D94151E279C0040EE9F /* AboutDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutDetailViewController.m; path = ../AboutDetailViewController.m; sourceTree = "<group>"; };
+		2B2A5CFE1530DEAF00EA28F4 /* MyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		2B2A5CFF1530DEAF00EA28F4 /* MyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		2B321CCE14C1E79B00B24159 /* storypic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storypic1.jpg; sourceTree = "<group>"; };
+		2B321CCF14C1E79B00B24159 /* storypic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storypic2.jpg; sourceTree = "<group>"; };
+		2B321CD214C1E7E000B24159 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		2B321CD314C1E7E000B24159 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		2B65517414E6C13E002B2CB2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2B65517614E6C16F002B2CB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2B6FE0A1150EC15800FACF39 /* FavoriteSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriteSelected.png; sourceTree = "<group>"; };
+		2B88A4A714F1DC5F00DEC7F4 /* FavoritesDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesDB.h; sourceTree = "<group>"; };
+		2B88A4A814F1DC5F00DEC7F4 /* FavoritesDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesDB.m; sourceTree = "<group>"; };
+		2B9FB6DD152738BC00F4E26E /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		2B9FB6DE152738BC00F4E26E /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		2BABD2E714C13062005F21AA /* 88-beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "88-beer-mug.png"; sourceTree = "<group>"; };
+		2BB0FA1614C1E9FF0061D97D /* Page-BgTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Page-BgTexture.jpg"; sourceTree = "<group>"; };
+		2BB0FA1814C1EC180061D97D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2BB0FA1914C1EC180061D97D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MapViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2BB0FA1B14C1EC390061D97D /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		2BB0FA1C14C1EC390061D97D /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		2BB0FA2914C1EF850061D97D /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
+		2BB0FA2B14C1EF8F0061D97D /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		2BB0FA2D14C1EF9C0061D97D /* 72-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72-pin.png"; sourceTree = "<group>"; };
+		2BB0FA2F14C1EFAB0061D97D /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
+		2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CircleTest.sqlite; sourceTree = "<group>"; };
+		2BC3AD1B14CF8F5600CE855F /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
+		2BC3AD1C14CF8F5600CE855F /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
+		2BD2F94314CF935300B34C12 /* BeerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerTableViewCell.h; sourceTree = "<group>"; };
+		2BD2F94414CF935300B34C12 /* BeerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerTableViewCell.m; sourceTree = "<group>"; };
+		2BD2F94A14CFA1C500B34C12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2BD3C6B514FAE95B00A7AB3B /* BarDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDetailTableViewCell.h; sourceTree = "<group>"; };
+		2BD3C6B614FAE95B00A7AB3B /* BarDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDetailTableViewCell.m; sourceTree = "<group>"; };
+		2BDAF8D6145CAD74001CAE49 /* BeerFinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerFinderViewController.h; sourceTree = "<group>"; };
+		2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerFinderViewController.m; sourceTree = "<group>"; };
+		2BED59AF14E4D7CA007EE77E /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		2BED59B014E4D7CA007EE77E /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		2BEF91E514D63B27009DD2B4 /* BarListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarListViewController.h; sourceTree = "<group>"; };
+		2BEF91E614D63B27009DD2B4 /* BarListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarListViewController.m; sourceTree = "<group>"; };
+		2BEF91E814D64347009DD2B4 /* GradientImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradientImage.png; sourceTree = "<group>"; };
+		2BF27F1E14F1B922000B05C7 /* iconDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconDefault.png; sourceTree = "<group>"; };
+		2BF27F1F14F1B922000B05C7 /* iconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconRetina.png; sourceTree = "<group>"; };
+		2BF27F2314F1BC8A000B05C7 /* FavoriteUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriteUnselected.png; sourceTree = "<group>"; };
+		2BF8A65414D48D9600721B21 /* BarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDetailViewController.h; sourceTree = "<group>"; };
+		2BF8A65514D48D9600721B21 /* BarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDetailViewController.m; sourceTree = "<group>"; };
+		2BF8A65714D48DA600721B21 /* BeerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerDetailViewController.h; sourceTree = "<group>"; };
+		2BF8A65814D48DA600721B21 /* BeerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerDetailViewController.m; sourceTree = "<group>"; };
+		2BF8A65E14D4907300721B21 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		2BF8A65F14D4907300721B21 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		2BF8A66114D4933E00721B21 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		2BF8A66214D4933E00721B21 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CircleBrewing_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBrewing_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CircleBrewing-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CircleBrewing-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5C196A150EB898008D7192 /* libsqlite3.dylib in Frameworks */,
+				2B03482514F9ABE100BB6BD7 /* Twitter.framework in Frameworks */,
+				2B14444A14D89CBA00121662 /* CoreLocation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				2BD2F94B14CFA1C500B34C12 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B07A13C14F20CFC00FC69D6 /* MyFavorite.h */,
+				2B07A13D14F20CFC00FC69D6 /* MyFavorite.m */,
+				2B88A4A614F1DC2000DEC7F4 /* Databases and DB Management */,
+				2BC3AD1A14CF8F2C00CE855F /* Table Cells */,
+				1D3623240D0F684500981E51 /* CircleBrewingAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CircleBrewingAppDelegate.m */,
+				2BED59AF14E4D7CA007EE77E /* EventsViewController.h */,
+				2BED59B014E4D7CA007EE77E /* EventsViewController.m */,
+				2B321CD214C1E7E000B24159 /* AboutViewController.h */,
+				2B321CD314C1E7E000B24159 /* AboutViewController.m */,
+				2B1D5D93151E279C0040EE9F /* AboutDetailViewController.h */,
+				2B1D5D94151E279C0040EE9F /* AboutDetailViewController.m */,
+				2BDAF8D6145CAD74001CAE49 /* BeerFinderViewController.h */,
+				2BDAF8D7145CAD74001CAE49 /* BeerFinderViewController.m */,
+				2BC3AD1B14CF8F5600CE855F /* BeerListViewController.h */,
+				2BC3AD1C14CF8F5600CE855F /* BeerListViewController.m */,
+				2BEF91E514D63B27009DD2B4 /* BarListViewController.h */,
+				2BEF91E614D63B27009DD2B4 /* BarListViewController.m */,
+				2B03481B14F99AD900BB6BD7 /* IconDownloader.h */,
+				2B03481C14F99AD900BB6BD7 /* IconDownloader.m */,
+				2B9FB6DD152738BC00F4E26E /* ImageViewController.h */,
+				2B9FB6DE152738BC00F4E26E /* ImageViewController.m */,
+				2BF8A65A14D48DB400721B21 /* Detail View Controllers */,
+				2BB0FA1B14C1EC390061D97D /* FavoritesViewController.h */,
+				2BB0FA1C14C1EC390061D97D /* FavoritesViewController.m */,
+				2BCDBC0514D5E3FE0034BAE0 /* Location Awareness */,
+				2BF8A65E14D4907300721B21 /* Beer.h */,
+				2BF8A65F14D4907300721B21 /* Beer.m */,
+				2BF8A66114D4933E00721B21 /* Bar.h */,
+				2BF8A66214D4933E00721B21 /* Bar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CircleBrewing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CircleBrewing_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B65517614E6C16F002B2CB2 /* Default.png */,
+				2B65517414E6C13E002B2CB2 /* Default@2x.png */,
+				2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */,
+				2B07A13A14F20B5C00FC69D6 /* FavoritesDB.sqlite */,
+				2B03482214F9A59D00BB6BD7 /* Placeholder.png */,
+				2B6FE0A1150EC15800FACF39 /* FavoriteSelected.png */,
+				2BF27F2314F1BC8A000B05C7 /* FavoriteUnselected.png */,
+				2BF27F1E14F1B922000B05C7 /* iconDefault.png */,
+				2BF27F1F14F1B922000B05C7 /* iconRetina.png */,
+				2B18B21B15040AD400C3B404 /* HeadingArrowSmall.png */,
+				2B14445014D8BAE800121662 /* Wood.jpg */,
+				2BEF91E814D64347009DD2B4 /* GradientImage.png */,
+				2BB0FA2F14C1EFAB0061D97D /* 59-info.png */,
+				2BB0FA2D14C1EF9C0061D97D /* 72-pin.png */,
+				2BB0FA2B14C1EF8F0061D97D /* 83-calendar.png */,
+				2BB0FA2914C1EF850061D97D /* 29-heart.png */,
+				2BB0FA1614C1E9FF0061D97D /* Page-BgTexture.jpg */,
+				2B321CCE14C1E79B00B24159 /* storypic1.jpg */,
+				2B321CCF14C1E79B00B24159 /* storypic2.jpg */,
+				2BABD2E714C13062005F21AA /* 88-beer-mug.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CircleBrewing-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B03482414F9ABE100BB6BD7 /* Twitter.framework */,
+				2B14444D14D8B73200121662 /* libsqlite3.dylib */,
+				2B14444914D89CBA00121662 /* CoreLocation.framework */,
+				2BD2F94A14CFA1C500B34C12 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B88A4A614F1DC2000DEC7F4 /* Databases and DB Management */ = {
+			isa = PBXGroup;
+			children = (
+				2B88A4A714F1DC5F00DEC7F4 /* FavoritesDB.h */,
+				2B88A4A814F1DC5F00DEC7F4 /* FavoritesDB.m */,
+				2B14445414D8C42D00121662 /* MyDB.h */,
+				2B14445514D8C42D00121662 /* MyDB.m */,
+			);
+			name = "Databases and DB Management";
+			sourceTree = "<group>";
+		};
+		2BC3AD1A14CF8F2C00CE855F /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2F94314CF935300B34C12 /* BeerTableViewCell.h */,
+				2BD2F94414CF935300B34C12 /* BeerTableViewCell.m */,
+				2BD3C6B514FAE95B00A7AB3B /* BarDetailTableViewCell.h */,
+				2BD3C6B614FAE95B00A7AB3B /* BarDetailTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		2BCDBC0514D5E3FE0034BAE0 /* Location Awareness */ = {
+			isa = PBXGroup;
+			children = (
+				2BB0FA1814C1EC180061D97D /* MapViewController.h */,
+				2BB0FA1914C1EC180061D97D /* MapViewController.m */,
+				2B2A5CFE1530DEAF00EA28F4 /* MyMapAnnotation.h */,
+				2B2A5CFF1530DEAF00EA28F4 /* MyMapAnnotation.m */,
+			);
+			name = "Location Awareness";
+			sourceTree = "<group>";
+		};
+		2BF8A65A14D48DB400721B21 /* Detail View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BF8A65714D48DA600721B21 /* BeerDetailViewController.h */,
+				2BF8A65814D48DA600721B21 /* BeerDetailViewController.m */,
+				2BF8A65414D48D9600721B21 /* BarDetailViewController.h */,
+				2BF8A65514D48D9600721B21 /* BarDetailViewController.m */,
+			);
+			name = "Detail View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CircleBrewing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CircleBrewing" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleBrewing;
+			productName = CircleBrewing;
+			productReference = 1D6058910D05DD3D006BFB54 /* CircleBrewing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CircleBrewing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CircleBrewing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2BABD2E914C13062005F21AA /* 88-beer-mug.png in Resources */,
+				2B321CD014C1E79B00B24159 /* storypic1.jpg in Resources */,
+				2B321CD114C1E79B00B24159 /* storypic2.jpg in Resources */,
+				2BB0FA1714C1E9FF0061D97D /* Page-BgTexture.jpg in Resources */,
+				2BB0FA2A14C1EF850061D97D /* 29-heart.png in Resources */,
+				2BB0FA2C14C1EF8F0061D97D /* 83-calendar.png in Resources */,
+				2BB0FA2E14C1EF9C0061D97D /* 72-pin.png in Resources */,
+				2BB0FA3014C1EFAB0061D97D /* 59-info.png in Resources */,
+				2BEF91E914D64347009DD2B4 /* GradientImage.png in Resources */,
+				2B14445114D8BAE800121662 /* Wood.jpg in Resources */,
+				2B65517514E6C13E002B2CB2 /* Default@2x.png in Resources */,
+				2B65517714E6C16F002B2CB2 /* Default.png in Resources */,
+				2BF27F2014F1B922000B05C7 /* iconDefault.png in Resources */,
+				2BF27F2114F1B922000B05C7 /* iconRetina.png in Resources */,
+				2BF27F2514F1BC8A000B05C7 /* FavoriteUnselected.png in Resources */,
+				2B07A13B14F20B5C00FC69D6 /* FavoritesDB.sqlite in Resources */,
+				2B03482314F9A59D00BB6BD7 /* Placeholder.png in Resources */,
+				2B18B21C15040AD400C3B404 /* HeadingArrowSmall.png in Resources */,
+				2B6FE0A2150EC15800FACF39 /* FavoriteSelected.png in Resources */,
+				2BBA70F41512A9EB00D5375B /* CircleTest.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CircleBrewingAppDelegate.m in Sources */,
+				2BDAF8D8145CAD74001CAE49 /* BeerFinderViewController.m in Sources */,
+				2B321CD514C1E7E000B24159 /* AboutViewController.m in Sources */,
+				2BB0FA1A14C1EC180061D97D /* MapViewController.m in Sources */,
+				2BB0FA1D14C1EC390061D97D /* FavoritesViewController.m in Sources */,
+				2BC3AD1D14CF8F5600CE855F /* BeerListViewController.m in Sources */,
+				2BD2F94514CF935300B34C12 /* BeerTableViewCell.m in Sources */,
+				2BF8A65614D48D9600721B21 /* BarDetailViewController.m in Sources */,
+				2BF8A65914D48DA600721B21 /* BeerDetailViewController.m in Sources */,
+				2BF8A66014D4907300721B21 /* Beer.m in Sources */,
+				2BF8A66314D4933E00721B21 /* Bar.m in Sources */,
+				2BEF91E714D63B28009DD2B4 /* BarListViewController.m in Sources */,
+				2B14445614D8C42D00121662 /* MyDB.m in Sources */,
+				2BED59B114E4D7CA007EE77E /* EventsViewController.m in Sources */,
+				2B88A4A914F1DC5F00DEC7F4 /* FavoritesDB.m in Sources */,
+				2B07A13E14F20CFC00FC69D6 /* MyFavorite.m in Sources */,
+				2B03481D14F99ADA00BB6BD7 /* IconDownloader.m in Sources */,
+				2BD3C6B714FAE95B00A7AB3B /* BarDetailTableViewCell.m in Sources */,
+				2B1D5D95151E279C0040EE9F /* AboutDetailViewController.m in Sources */,
+				2B9FB6DF152738BC00F4E26E /* ImageViewController.m in Sources */,
+				2B2A5D001530DEAF00EA28F4 /* MyMapAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CircleBrewing_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "CircleBrewing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = CircleBrewing;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Where To, LLC";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CircleBrewing_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "CircleBrewing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = CircleBrewing;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "037F4E1F-9C24-4C22-B72A-EA05077B1B65";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CircleBrewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CircleBrewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
