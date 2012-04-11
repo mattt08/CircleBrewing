@@ -226,6 +226,7 @@ static NSString *tabBarOrder = @"tabBarOrder";
         myLocationManager.delegate = self;
         myLocationManager.headingFilter = 3.0;
         myLocationManager.distanceFilter = 160.9f;
+        myLocationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
         myLocationManager.purpose = @"This will help you find new places nearby and get directions/distances to all kinds of good Circle Brewing stuff";
         
         if ([self locationServicesAreAvailable]) 
