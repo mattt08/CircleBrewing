@@ -27,6 +27,7 @@
 		2B321CD014C1E79B00B24159 /* storypic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B321CCE14C1E79B00B24159 /* storypic1.jpg */; };
 		2B321CD114C1E79B00B24159 /* storypic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B321CCF14C1E79B00B24159 /* storypic2.jpg */; };
 		2B321CD514C1E7E000B24159 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B321CD314C1E7E000B24159 /* AboutViewController.m */; };
+		2B3C2D741536590400DC43CF /* CircleTest.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C2D731536590400DC43CF /* CircleTest.sqlite */; };
 		2B5C196A150EB898008D7192 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B14444D14D8B73200121662 /* libsqlite3.dylib */; };
 		2B65517514E6C13E002B2CB2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B65517414E6C13E002B2CB2 /* Default@2x.png */; };
 		2B65517714E6C16F002B2CB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B65517614E6C16F002B2CB2 /* Default.png */; };
@@ -41,7 +42,6 @@
 		2BB0FA2C14C1EF8F0061D97D /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2B14C1EF8F0061D97D /* 83-calendar.png */; };
 		2BB0FA2E14C1EF9C0061D97D /* 72-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2D14C1EF9C0061D97D /* 72-pin.png */; };
 		2BB0FA3014C1EFAB0061D97D /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0FA2F14C1EFAB0061D97D /* 59-info.png */; };
-		2BBA70F41512A9EB00D5375B /* CircleTest.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */; };
 		2BC3AD1D14CF8F5600CE855F /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC3AD1C14CF8F5600CE855F /* BeerListViewController.m */; };
 		2BD2F94514CF935300B34C12 /* BeerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD2F94414CF935300B34C12 /* BeerTableViewCell.m */; };
 		2BD2F94B14CFA1C500B34C12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2F94A14CFA1C500B34C12 /* MapKit.framework */; };
@@ -89,6 +89,7 @@
 		2B321CCF14C1E79B00B24159 /* storypic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storypic2.jpg; sourceTree = "<group>"; };
 		2B321CD214C1E7E000B24159 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
 		2B321CD314C1E7E000B24159 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		2B3C2D731536590400DC43CF /* CircleTest.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CircleTest.sqlite; sourceTree = "<group>"; };
 		2B65517414E6C13E002B2CB2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2B65517614E6C16F002B2CB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2B6FE0A1150EC15800FACF39 /* FavoriteSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriteSelected.png; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		2BB0FA2B14C1EF8F0061D97D /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
 		2BB0FA2D14C1EF9C0061D97D /* 72-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72-pin.png"; sourceTree = "<group>"; };
 		2BB0FA2F14C1EFAB0061D97D /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
-		2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CircleTest.sqlite; sourceTree = "<group>"; };
 		2BC3AD1B14CF8F5600CE855F /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
 		2BC3AD1C14CF8F5600CE855F /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
 		2BD2F94314CF935300B34C12 /* BeerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerTableViewCell.h; sourceTree = "<group>"; };
@@ -225,7 +225,7 @@
 			children = (
 				2B65517614E6C16F002B2CB2 /* Default.png */,
 				2B65517414E6C13E002B2CB2 /* Default@2x.png */,
-				2BBA70F31512A9EB00D5375B /* CircleTest.sqlite */,
+				2B3C2D731536590400DC43CF /* CircleTest.sqlite */,
 				2B07A13A14F20B5C00FC69D6 /* FavoritesDB.sqlite */,
 				2B03482214F9A59D00BB6BD7 /* Placeholder.png */,
 				2B6FE0A1150EC15800FACF39 /* FavoriteSelected.png */,
@@ -379,7 +379,7 @@
 				2B03482314F9A59D00BB6BD7 /* Placeholder.png in Resources */,
 				2B18B21C15040AD400C3B404 /* HeadingArrowSmall.png in Resources */,
 				2B6FE0A2150EC15800FACF39 /* FavoriteSelected.png in Resources */,
-				2BBA70F41512A9EB00D5375B /* CircleTest.sqlite in Resources */,
+				2B3C2D741536590400DC43CF /* CircleTest.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
