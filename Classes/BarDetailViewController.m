@@ -13,10 +13,19 @@
 #import <Twitter/TWTweetComposeViewController.h>
 #import "MapViewController.h"
 
+#pragma mark -
+
+@interface BarDetailTableViewCell()
+
+-(void)startImageDownload:(Beer *)theBeer forIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
 @implementation BarDetailViewController
 
 @synthesize myTableView, myBar, myBeerTableViewCell;
 @synthesize beerArray = _beerArray;
+@synthesize imageDownloadsInProgress;
 
 #define NAME_SECTION 0
 #define BEER_SECTION 1
@@ -62,20 +71,11 @@
     {
         self.myBar = [[MyDB database] getFeaturedBar];
         
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
-        label.numberOfLines = 0;
-        label.font = [UIFont fontWithName:@"Helvetica" size:17.0f];
-        label.lineBreakMode = UILineBreakModeWordWrap;
-        label.text = myBar.description;
-        label.layer.cornerRadius = 9.0f;
+        UILabel *myLabel = [self myLabel];
+        [self.view addSubview:myLabel];
         
-        CGSize myHeight = [myBar.description sizeWithFont:label.font constrainedToSize:CGSizeMake(300, MAXFLOAT) lineBreakMode:label.lineBreakMode];
-        label.frame = CGRectMake(10, 10, self.view.frame.size.width-20, myHeight.height);
-        
-        [self.view addSubview:label];
-        
-        myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(label.frame) + 10, self.view.frame.size.width, self.view.frame.size.height-CGRectGetMaxY(label.frame)-20) style:UITableViewStyleGrouped];
-        [label release];
+        myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(myLabel.frame) + 10, self.view.frame.size.width, self.view.frame.size.height-CGRectGetMaxY(myLabel.frame)-20) style:UITableViewStyleGrouped];
+        [myLabel release];
     }
     else 
     {
@@ -107,6 +107,7 @@
     }
 
     self.beerArray = [[MyDB database] getBeerInfoForBar:myBar];
+    self.imageDownloadsInProgress = [NSMutableDictionary dictionary];
     
     UIBarButtonItem *optionButton = [[UIBarButtonItem alloc] initWithTitle:@"Options" style:UIBarButtonItemStylePlain target:self action:@selector(optionButtonPressed)];
 	self.navigationItem.rightBarButtonItem = optionButton;
@@ -124,6 +125,21 @@
     [super viewWillAppear:animated];
     
     [myTableView deselectRowAtIndexPath:[myTableView indexPathForSelectedRow] animated:YES];
+}
+
+-(UILabel *)myLabel
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+    label.numberOfLines = 0;
+    label.font = [UIFont fontWithName:@"Helvetica" size:17.0f];
+    label.lineBreakMode = UILineBreakModeWordWrap;
+    label.text = myBar.description;
+    label.layer.cornerRadius = 9.0f;
+    
+    CGSize myHeight = [myBar.description sizeWithFont:label.font constrainedToSize:CGSizeMake(300, MAXFLOAT) lineBreakMode:label.lineBreakMode];
+    label.frame = CGRectMake(10, 10, self.view.frame.size.width-20, myHeight.height);
+    
+    return label;
 }
 
 #pragma mark - Table view data source
@@ -217,6 +233,19 @@
         
         [beerCell setMyBeer:myBeer];
         
+        if (!myBeer.beerImage) 
+        {
+            if (tableView.dragging == NO && tableView.decelerating == NO) 
+            {
+                [self startImageDownload:myBeer forIndexPath:indexPath];  //Do not start downloading image until the user has finished scrolling
+                beerCell.myImageView.image = [UIImage imageNamed:@"Placeholder.png"];
+            }
+        }
+        else
+        {
+            beerCell.myImageView.image = myBeer.beerImage;
+        }
+        
         if ([[self.navigationController.viewControllers objectAtIndex:0] isKindOfClass:[BeerFinderViewController class]])
         {
             beerCell.userInteractionEnabled = NO;
@@ -278,7 +307,7 @@
 {
     if ([self tableView:tableView titleForHeaderInSection:section] != nil) 
     {
-        return 20;
+        return 30;
     }
     else
     {
@@ -368,6 +397,7 @@
     }
     if (indexPath.section == CALL_SECTION) 
     {
+        [self.myTableView deselectRowAtIndexPath:indexPath animated:YES];
         //Make phone call here
         UIDevice *device = [UIDevice currentDevice];
         if ([[device model] isEqualToString:@"iPhone"] ) 
@@ -382,6 +412,82 @@
         }
 
     }
+}
+
+#pragma mark - Cell image management
+
+-(void)startImageDownload:(Beer *)theBeer forIndexPath:(NSIndexPath *)indexPath
+{
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    
+    if (iconDownloader == nil) 
+    {
+        iconDownloader = [[IconDownloader alloc] init];
+        iconDownloader.myBeer = theBeer;
+        iconDownloader.indexPathInTableView = indexPath;
+        iconDownloader.delegate = self;
+        [imageDownloadsInProgress setObject:iconDownloader forKey:indexPath];
+        [iconDownloader startDownload];
+        [iconDownloader release];
+    }
+}
+
+-(void)downloadFailed:(NSIndexPath *)indexPath
+{
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    
+    if (iconDownloader != nil) 
+    {
+        BeerTableViewCell *cell = (BeerTableViewCell *)[self.myTableView cellForRowAtIndexPath:iconDownloader.indexPathInTableView];
+        cell.myImageView.image = nil;
+        
+        [cell setNeedsLayout];
+    }
+}
+
+-(void)appImageDidLoad:(NSIndexPath *)indexPath
+{
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    
+    if (iconDownloader != nil) 
+    {
+        BeerTableViewCell *cell = (BeerTableViewCell *)[self.myTableView cellForRowAtIndexPath:iconDownloader.indexPathInTableView];
+        cell.myImageView.image = iconDownloader.myBeer.beerImage;
+        
+        [cell setNeedsLayout];
+    }
+}
+
+-(void)loadImagesForVisibleRows
+{
+    if ([self.beerArray count] > 0) 
+    {
+        NSArray *visiblePaths = [self.myTableView indexPathsForVisibleRows];
+        for (NSIndexPath *indexPath in visiblePaths) 
+        {
+            Beer *myBeer = [_beerArray objectAtIndex:indexPath.row];
+            
+            if (!myBeer.beerImage) 
+            {
+                [self startImageDownload:myBeer forIndexPath:indexPath];
+            }
+        }
+    }
+}
+
+#pragma mark - Deferred image loading (UIScrollViewDelegate)
+
+-(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    if (!decelerate) 
+    {
+        [self loadImagesForVisibleRows];
+    }
+}
+
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    [self loadImagesForVisibleRows];
 }
 
 #pragma mark - Button interaction methods
@@ -509,6 +615,9 @@
 {
     [myBar release];
     self.beerArray = nil;
+    
+    [[self.imageDownloadsInProgress allValues] makeObjectsPerformSelector:@selector(cancelDownload)];
+    [imageDownloadsInProgress release];
     
     [super dealloc];
 }
