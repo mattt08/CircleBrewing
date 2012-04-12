@@ -28,9 +28,9 @@ static NSString *tabBarOrder = @"tabBarOrder";
 
 -(void)applicationDidFinishLaunching:(UIApplication *)application
 {
-    NSURLCache *sharedCache = [[NSURLCache alloc] initWithMemoryCapacity:0 diskCapacity:0 diskPath:nil];
+    /*NSURLCache *sharedCache = [[NSURLCache alloc] initWithMemoryCapacity:0 diskCapacity:0 diskPath:nil];
     [NSURLCache setSharedURLCache:sharedCache];
-    [sharedCache release];
+    [sharedCache release];*/
     
     launchDate = [[NSDate alloc] init];
     
